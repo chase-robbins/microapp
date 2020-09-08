@@ -26,6 +26,7 @@ struct LoginPage: View {
             } else {
                 self.login_email = ""
                 self.login_password = ""
+                self.viewRouter.currentPage = "dashboard"
             }
         }
     }
@@ -94,7 +95,7 @@ struct LoginPage: View {
                 
                 Button(action: {
                     
-                    self.viewRouter.currentPage = "welcome"
+                    self.viewRouter.currentPage = "signup"
                     
                 }){
                     Text("sign up")

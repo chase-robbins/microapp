@@ -25,6 +25,7 @@ struct SignUpView: View {
             } else {
                 self.signup_email = ""
                 self.signup_password = ""
+                self.viewRouter.currentPage = "dashboard"
             }
         }
     }
@@ -67,9 +68,7 @@ struct SignUpView: View {
                                 .background(Color.gray)
                                 .padding(.top,-5)
                             
-                            Button(action: {
-                                print("hello")
-                            }) {
+                            Button(action: signUp) {
                                 Text("sign up")
                                     .multilineTextAlignment(.leading)
                                     .foregroundColor(.black)

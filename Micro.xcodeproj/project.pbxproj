@@ -21,9 +21,9 @@
 		3FA480C42504025C0060242F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA480C32504025C0060242F /* WelcomeView.swift */; };
 		3FA480C82504133E0060242F /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA480C72504133E0060242F /* SurveyView.swift */; };
 		3FA480CA250437000060242F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA480C9250437000060242F /* GoogleService-Info.plist */; };
-		3FF4A3022505389F000324FB /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A3012505389F000324FB /* ViewRouter.swift */; };
+		3FDE27072505C69000145A82 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE27062505C69000145A82 /* ViewRouter.swift */; };
+		3FDE27092505C6B200145A82 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE27082505C6B200145A82 /* SessionStore.swift */; };
 		3FF4A304250542C5000324FB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A303250542C5000324FB /* DashboardView.swift */; };
-		3FF4A3082505A8B4000324FB /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A3072505A8B3000324FB /* SessionStore.swift */; };
 		3FF4A30D2505B8F3000324FB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A30C2505B8F3000324FB /* SignUpView.swift */; };
 		823B9448757FC62FBBA3FC64 /* Pods_MicroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BFC7B02930F8B862F8017B /* Pods_MicroUITests.framework */; };
 /* End PBXBuildFile section */
@@ -67,9 +67,9 @@
 		3FA480C32504025C0060242F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3FA480C72504133E0060242F /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		3FA480C9250437000060242F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3FF4A3012505389F000324FB /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewRouter.swift; path = /Users/chaserobbins/Desktop/Micro/Micro/ViewRouter.swift; sourceTree = "<absolute>"; };
+		3FDE27062505C69000145A82 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		3FDE27082505C6B200145A82 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		3FF4A303250542C5000324FB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		3FF4A3072505A8B3000324FB /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SessionStore.swift; path = /Users/chaserobbins/Desktop/Micro/Micro/SessionStore.swift; sourceTree = "<absolute>"; };
 		3FF4A30C2505B8F3000324FB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		AAEBBF29D50537FC04E8BA73 /* Pods_Micro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Micro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B096E740474F419223901B92 /* Pods-MicroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroTests/Pods-MicroTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,10 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				3FF4A30B2505B337000324FB /* Views */,
-				3FF4A3012505389F000324FB /* ViewRouter.swift */,
+				3FDE27062505C69000145A82 /* ViewRouter.swift */,
 				3FA4808D25030E3B0060242F /* ContentView.swift */,
 				3FA4808925030E3B0060242F /* AppDelegate.swift */,
-				3FF4A3072505A8B3000324FB /* SessionStore.swift */,
+				3FDE27082505C6B200145A82 /* SessionStore.swift */,
 				3FA4808B25030E3B0060242F /* SceneDelegate.swift */,
 				3FA480C72504133E0060242F /* SurveyView.swift */,
 				3FA4808F25030E3E0060242F /* Assets.xcassets */,
@@ -425,15 +425,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF4A3022505389F000324FB /* ViewRouter.swift in Sources */,
 				3FA480C42504025C0060242F /* WelcomeView.swift in Sources */,
 				3FA4808A25030E3B0060242F /* AppDelegate.swift in Sources */,
 				3FA480C82504133E0060242F /* SurveyView.swift in Sources */,
 				3FA4808C25030E3B0060242F /* SceneDelegate.swift in Sources */,
 				3FF4A30D2505B8F3000324FB /* SignUpView.swift in Sources */,
-				3FF4A3082505A8B4000324FB /* SessionStore.swift in Sources */,
+				3FDE27072505C69000145A82 /* ViewRouter.swift in Sources */,
 				3FA480C22503FB480060242F /* LoginPage.swift in Sources */,
 				3FF4A304250542C5000324FB /* DashboardView.swift in Sources */,
+				3FDE27092505C6B200145A82 /* SessionStore.swift in Sources */,
 				3FA4808E25030E3B0060242F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

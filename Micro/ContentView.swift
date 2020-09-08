@@ -34,6 +34,11 @@ struct ContentView: View {
                 if viewRouter.currentPage == "welcome" {
                     WelcomeView()
                     .transition(.opacity)
+                    
+                } else
+                if viewRouter.currentPage == "signup" {
+                    SignUpView()
+                    .transition(.opacity)
                 } else {
                     WelcomeView()
                         .transition(.opacity)
