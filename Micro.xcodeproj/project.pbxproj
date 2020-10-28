@@ -21,8 +21,14 @@
 		3FA480C42504025C0060242F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA480C32504025C0060242F /* WelcomeView.swift */; };
 		3FA480C82504133E0060242F /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA480C72504133E0060242F /* SurveyView.swift */; };
 		3FA480CA250437000060242F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA480C9250437000060242F /* GoogleService-Info.plist */; };
+		3FC2D4DB2509348A00CEF4C3 /* dashboard_bottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2D4DA2509348A00CEF4C3 /* dashboard_bottom.swift */; };
+		3FC2D4DE25093F1600CEF4C3 /* QuestionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2D4DD25093F1500CEF4C3 /* QuestionTile.swift */; };
+		3FC2D4E0250946F900CEF4C3 /* MultipleChoiceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2D4DF250946F900CEF4C3 /* MultipleChoiceTemplate.swift */; };
+		3FC2D4E225094BDB00CEF4C3 /* SurveyMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2D4E125094BDB00CEF4C3 /* SurveyMaster.swift */; };
 		3FDE27072505C69000145A82 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE27062505C69000145A82 /* ViewRouter.swift */; };
 		3FDE27092505C6B200145A82 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE27082505C6B200145A82 /* SessionStore.swift */; };
+		3FDE270B2508659300145A82 /* dashboard_top.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE270A2508659300145A82 /* dashboard_top.swift */; };
+		3FDE270D25086E1F00145A82 /* dashboard_middle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE270C25086E1F00145A82 /* dashboard_middle.swift */; };
 		3FF4A304250542C5000324FB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A303250542C5000324FB /* DashboardView.swift */; };
 		3FF4A30D2505B8F3000324FB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A30C2505B8F3000324FB /* SignUpView.swift */; };
 		823B9448757FC62FBBA3FC64 /* Pods_MicroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BFC7B02930F8B862F8017B /* Pods_MicroUITests.framework */; };
@@ -67,8 +73,14 @@
 		3FA480C32504025C0060242F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3FA480C72504133E0060242F /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		3FA480C9250437000060242F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FC2D4DA2509348A00CEF4C3 /* dashboard_bottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboard_bottom.swift; sourceTree = "<group>"; };
+		3FC2D4DD25093F1500CEF4C3 /* QuestionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTile.swift; sourceTree = "<group>"; };
+		3FC2D4DF250946F900CEF4C3 /* MultipleChoiceTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceTemplate.swift; sourceTree = "<group>"; };
+		3FC2D4E125094BDB00CEF4C3 /* SurveyMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyMaster.swift; sourceTree = "<group>"; };
 		3FDE27062505C69000145A82 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		3FDE27082505C6B200145A82 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		3FDE270A2508659300145A82 /* dashboard_top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboard_top.swift; sourceTree = "<group>"; };
+		3FDE270C25086E1F00145A82 /* dashboard_middle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboard_middle.swift; sourceTree = "<group>"; };
 		3FF4A303250542C5000324FB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		3FF4A30C2505B8F3000324FB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		AAEBBF29D50537FC04E8BA73 /* Pods_Micro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Micro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,9 +203,15 @@
 			isa = PBXGroup;
 			children = (
 				3FA480C32504025C0060242F /* WelcomeView.swift */,
+				3FC2D4DD25093F1500CEF4C3 /* QuestionTile.swift */,
+				3FC2D4E125094BDB00CEF4C3 /* SurveyMaster.swift */,
+				3FC2D4DF250946F900CEF4C3 /* MultipleChoiceTemplate.swift */,
 				3FA480C12503FB480060242F /* LoginPage.swift */,
 				3FF4A30C2505B8F3000324FB /* SignUpView.swift */,
 				3FF4A303250542C5000324FB /* DashboardView.swift */,
+				3FC2D4DA2509348A00CEF4C3 /* dashboard_bottom.swift */,
+				3FDE270A2508659300145A82 /* dashboard_top.swift */,
+				3FDE270C25086E1F00145A82 /* dashboard_middle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -426,14 +444,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA480C42504025C0060242F /* WelcomeView.swift in Sources */,
+				3FC2D4E0250946F900CEF4C3 /* MultipleChoiceTemplate.swift in Sources */,
 				3FA4808A25030E3B0060242F /* AppDelegate.swift in Sources */,
 				3FA480C82504133E0060242F /* SurveyView.swift in Sources */,
+				3FDE270D25086E1F00145A82 /* dashboard_middle.swift in Sources */,
+				3FC2D4DB2509348A00CEF4C3 /* dashboard_bottom.swift in Sources */,
 				3FA4808C25030E3B0060242F /* SceneDelegate.swift in Sources */,
+				3FC2D4E225094BDB00CEF4C3 /* SurveyMaster.swift in Sources */,
 				3FF4A30D2505B8F3000324FB /* SignUpView.swift in Sources */,
 				3FDE27072505C69000145A82 /* ViewRouter.swift in Sources */,
 				3FA480C22503FB480060242F /* LoginPage.swift in Sources */,
+				3FC2D4DE25093F1600CEF4C3 /* QuestionTile.swift in Sources */,
 				3FF4A304250542C5000324FB /* DashboardView.swift in Sources */,
 				3FDE27092505C6B200145A82 /* SessionStore.swift in Sources */,
+				3FDE270B2508659300145A82 /* dashboard_top.swift in Sources */,
 				3FA4808E25030E3B0060242F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

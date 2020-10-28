@@ -13,11 +13,36 @@ struct DashboardView: View {
     @EnvironmentObject var session: SessionStore
 
     var body: some View {
-        VStack{
-            Text("Welcome back user")
-            Button(action: session.signOut ){
-                Text("Sign Out")
+        ZStack{
+            VStack{
+                Rectangle()
+                .fill(Color(red: 0 / 255, green: 69 / 255, blue: 16 / 255))
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
             }
+            VStack{
+                ZStack{
+                    Image("dashboard_top")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    dashboard_top().padding(.all)
+                }
+                Spacer()
+                
+                dashboard_middle().colorInvert()
+                
+                Spacer()
+                
+                ZStack{
+                    Image("dashboard_bottom")
+                      .resizable()
+                      .aspectRatio(contentMode: .fit)
+                    dashboard_bottom().padding(.all)
+                }
+
+                
+            }.edgesIgnoringSafeArea(.all)
+
         }
     } 
 }

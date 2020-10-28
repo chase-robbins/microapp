@@ -25,7 +25,10 @@ struct ContentView: View {
                 if viewRouter.currentPage == "dashboard"{
                     DashboardView()
                         .transition(.opacity)
-                } //else if {
+                }  else if viewRouter.currentPage == "survey" {
+                    SurveyMaster()
+                        .transition(.opacity)
+                }
             } else { //insecure pages inside here
                 if viewRouter.currentPage == "login" {
                     LoginPage()
